@@ -1,0 +1,30 @@
+{
+  "address": "0x16557542aea17d4b2022d6c0a2e0e2fc0ce65631",
+  "bytecodeBytes": 2741,
+  "minimalProxy": false,
+  "selectorsTotal": 22,
+  "knownPresent": [
+    "pause()",
+    "unpause()",
+    "paused()",
+    "merkleRoot()",
+    "updateMerkleRoot(bytes32)",
+    "claimed(address)",
+    "withdraw(address)",
+    "token()"
+  ],
+  "admin": [
+    "pause()",
+    "unpause()",
+    "paused()"
+  ],
+  "fundsExit": [
+    "withdraw(address)"
+  ],
+  "rootMut": [
+    "updateMerkleRoot(bytes32)"
+  ],
+  "windowMut": [],
+  "verified": false,
+  "verifiedName": null
+}

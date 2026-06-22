@@ -1,0 +1,147 @@
+{
+  "snapshot": "2026-06-22",
+  "window": {
+    "start": "2026-06-17T15:26:09.000000Z",
+    "end": "2026-06-22T15:04:23.000000Z"
+  },
+  "claimWindowOpen": true,
+  "totals": {
+    "claims": 16523,
+    "uniqueRecipients": 16523,
+    "distributedO": 27208715.86,
+    "distinctTxs": 15686
+  },
+  "methods": {
+    "claim": {
+      "count": 4115,
+      "pctCount": "24.90%",
+      "o": 645172.71,
+      "pctO": "2.37%"
+    },
+    "handleOps": {
+      "count": 12408,
+      "pctCount": "75.10%",
+      "o": 26563543.150000002,
+      "pctO": "97.63%"
+    }
+  },
+  "fresh": {
+    "wallets": 10924,
+    "pctRecipients": "66.11%",
+    "claims": 10924,
+    "pctClaims": "66.11%",
+    "o": 26033902.54,
+    "pctO": "95.68%",
+    "pctOexact": "95.682%",
+    "byMethod": {
+      "handleOps": 10897,
+      "claim": 27
+    }
+  },
+  "inert": {
+    "holdFull": 10863,
+    "movedSome": 61,
+    "zeroed": 60,
+    "nonceNow1": 10885
+  },
+  "perWallet": {
+    "freshMedianO": 1564.55,
+    "nonFreshMedianO": 2.78,
+    "ratio": "563x"
+  },
+  "concentration": {
+    "top100": "10.11%",
+    "top1000": "40.88%"
+  },
+  "addressSortedSweeps": {
+    "fresh_runs_exactly_100": 21,
+    "all_one_claim_per_block": 21,
+    "runs_99": 11,
+    "runs_ge_50": 53,
+    "maxRun": 100,
+    "coverage_ge_50_pct": 45.3,
+    "null_shuffled_maxRun": 7,
+    "nonFresh_maxRun": 6
+  },
+  "delta_vs_2026_06_20": {
+    "oldClaims": 15918,
+    "newClaims": 605,
+    "newUniqueRecipients": 605,
+    "newFreshClaims": 372,
+    "newO": 897331.26,
+    "newFreshO": 894977.1100000001,
+    "newWindowEnd": "2026-06-22T15:04:23.000000Z"
+  },
+  "capEvasion": {
+    "per_wallet_cap_O": 41500,
+    "wallets_at_cap": 5,
+    "max_amount_anywhere_O": 41500,
+    "max_fresh_amount_O": 36099.88,
+    "batch_budget_over_cap_x": 5.8,
+    "fresh_total_over_cap_x": 627
+  },
+  "distributor": {
+    "verified": false,
+    "bytecodeBytes": 2741,
+    "ownerMutators": {
+      "updateMerkleRoot": true,
+      "pause": true,
+      "withdraw": true
+    },
+    "knownFunctions": [
+      "pause()",
+      "unpause()",
+      "paused()",
+      "merkleRoot()",
+      "updateMerkleRoot(bytes32)",
+      "claimed(address)",
+      "withdraw(address)",
+      "token()"
+    ]
+  },
+  "pageBudgetBalance": {
+    "pages": 21,
+    "mean_O": 240727.6,
+    "sd_O": 1466.2,
+    "cv_pct": 0.609,
+    "min_O": 238363.81,
+    "max_O": 242940.06,
+    "spread_pct": 1.9,
+    "within_page_min_O": 48.09,
+    "within_page_max_O": 36099.88,
+    "random_partition_trials": 5000,
+    "random_trials_cv_le_real": "0/5000"
+  },
+  "runLengthHistogram": {
+    "len_2_7": 1213,
+    "len_8_19": 97,
+    "len_20_49": 13,
+    "len_50_99": 32,
+    "len_99": 11,
+    "len_100": 21
+  },
+  "blockStats": {
+    "fresh_claims": 10924,
+    "fresh_distinct_blocks": 7409,
+    "fresh_blocks_with_multiple": 1524,
+    "fresh_max_per_block": 7,
+    "pages_one_claim_per_block": 21
+  },
+  "capContext": {
+    "largest_single_allocation_O": 41500,
+    "hitters": 5,
+    "hitters_all_non_fresh": true,
+    "max_fresh_O": 36099.88,
+    "note": "41,500 is the largest OBSERVED allocation, not an enforced on-chain cap; all hitters are pre-existing wallets"
+  },
+  "repeatedAmounts": {
+    "distinct_fresh_amounts_shared_by_5plus": 342
+  },
+  "allocationContext": {
+    "season1_allocation_O": 30000000,
+    "distributed_so_far_O": 27208715.86,
+    "pct_of_allocation_distributed": 90.7,
+    "claim_window_open": true,
+    "note": "the 95.68% is the fresh share of $O DISTRIBUTED so far, not of the 30M Season-1 allocation (claim window still open)"
+  }
+}

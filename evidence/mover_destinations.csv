@@ -1,0 +1,13 @@
+destination,O_received,from_n_movers,type,label
+0x7747f8d2a76bd6345cc29622a946a929647f2359,5536.19,37,contract,"BaseSettler"
+0x411d2c093e4c2e69bf0d8e94be1bf13dadd879c6,3763.8100000000004,5,contract,"UniversalUniswapV3Adaptor"
+0x45643fe996fc50d887a1ccf933f28bb93e4fd35f,1403.9,2,EOA,"EOA"
+0xcc46058308feec4d994703a3f7d0257ecb5500b3,200,2,contract,"contract"
+0xb300000b72deaeb607a12d5f54773d1c19c7028d,100,1,contract,"Diamond impl:DiamondCutFacet"
+0x51cd6dad4d6a2981c6c3e3bb6965537a831110d8,68.12,3,EOA,"EOA"
+0x750746a3673426547c07c88b38c6cf636b7b4918,56.26,4,contract,"contract impl:Kernel"
+0xda2415150c5fb1c2373f3cd2ad8f6dbe18f56b64,16.34,1,EOA,"EOA"
+0xbe96d4964d89c17c2c8c4d230313b8b6f7f6507a,3.85,1,contract,"contract"
+0x86e95581e41946ed84956433a8a9c836bcba636c,2,2,EOA,"EOA"
+0x0d3e965c8a16ffe5f9f45cb2c44ea53f3e4abc14,2,2,contract,"contract"
+0x0cf8dcc81f2429198c8084cb108260055d3cc852,1,1,EOA,"EOA"
